@@ -1,37 +1,23 @@
-import arcjet, { createMiddleware, detectBot, shield } from '@arcjet/next';
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import { NextResponse } from 'next/server';
-const isProtectedRoute=createRouteMatcher([
+
+const isProtectedRoute = createRouteMatcher([
   "/dashboard(.*)",
   "/collection(.*)", 
   "/journal(.*)",
 ])
-//sheild and bot protection
-const aj= arcjet({
-  key:process.env.ARCJET_KEY,
-  rules:[
-    shield({
-      mode:"LIVE",
-    }),
-    detectBot({
-      mode:"LIVE",
-      allow:["CATEGORY:SEARCH_ENGINE"]
-    })
-  ]
-})
 
-
-const clerk=clerkMiddleware(async(auth,req)=>{
-  const {userId,redirectToSignIn}= await auth();
-
-  if(!userId && isProtectedRoute(req)){
+const clerk = clerkMiddleware(async (auth, req) => {
+  const { userId, redirectToSignIn } = await auth();
+  
+  if (!userId && isProtectedRoute(req)) {
     return redirectToSignIn();
-
   }
-return NextResponse.next();
-
+  
+  return NextResponse.next();
 });
-export default createMiddleware(aj,clerk)
+
+export default clerk;
 
 export const config = {
   matcher: [
@@ -40,4 +26,4 @@ export const config = {
     // Always run for API routes
     '/(api|trpc)(.*)',
   ],
-}; 
+};
