@@ -1,5 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header";
+import { ClerkProvider } from "@clerk/nextjs";
+import { Toaster } from "sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,12 +21,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <ClerkProvider>
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        {/* <header/> */}
+        <div className="inset-0 bg-[url('/bg.jpg')] opacity-50 fixed -z-10" />
+          <Header />
+          <main className="min-h-screen">{children}</main>
+          <Toaster richColors/>
+        <footer className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 py-8 mt-12">
+  <div className="max-w-screen-xl mx-auto px-4 text-center">
+    <p className="text-gray-300 text-sm md:text-base tracking-wide">
+      © {new Date().getFullYear()} — Built with ❤️ by <span className="text-white font-semibold">Shashwat</span>
+    </p>
+  </div>
+</footer>
       </body>
     </html>
+</ClerkProvider>
   );
 }

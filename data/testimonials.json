@@ -1,0 +1,148 @@
+{
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Sarah Chen",
+        "role": "Creative Writer & Therapist",
+        "location": "San Francisco, CA",
+        "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=100&h=100&fit=crop&crop=face",
+        "content": "This app transformed my daily reflection practice. The mood analytics helped me identify patterns I never noticed before, and the rich text editor makes capturing my thoughts feel like creating art.",
+        "rating": 5,
+        "highlight": "Transformed my daily reflection practice",
+        "mood": "grateful",
+        "dateJoined": "8 months ago",
+        "entriesWritten": 240
+      },
+      {
+        "id": 2,
+        "name": "Marcus Johnson",
+        "role": "Software Engineer",
+        "location": "Austin, TX",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+        "content": "As someone who struggled with consistency, the daily prompts are a game-changer. The security features give me complete peace of mind knowing my deepest thoughts are truly private.",
+        "rating": 5,
+        "highlight": "Daily prompts are a game-changer",
+        "mood": "motivated",
+        "dateJoined": "6 months ago",
+        "entriesWritten": 180
+      },
+      {
+        "id": 3,
+        "name": "Elena Rodriguez",
+        "role": "Psychology Student",
+        "location": "Barcelona, Spain",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+        "content": "The emotional insights have been incredible for my personal growth journey. I love how it tracks my mood patterns and helps me understand my emotional landscape better.",
+        "rating": 5,
+        "highlight": "Incredible for personal growth",
+        "mood": "insightful",
+        "dateJoined": "1 year ago",
+        "entriesWritten": 365
+      },
+      {
+        "id": 4,
+        "name": "David Kim",
+        "role": "Entrepreneur & Father",
+        "location": "Seoul, South Korea",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+        "content": "Between running a startup and raising kids, this app helps me stay grounded. The beautiful interface makes journaling feel like a luxury, not a chore. My stress levels have noticeably improved.",
+        "rating": 5,
+        "highlight": "Helps me stay grounded",
+        "mood": "balanced",
+        "dateJoined": "4 months ago",
+        "entriesWritten": 120
+      },
+      {
+        "id": 5,
+        "name": "Amara Okafor",
+        "role": "Graduate Student",
+        "location": "London, UK",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face",
+        "content": "The markdown support and multimedia features let me create rich, detailed entries about my research journey. It's like having a personal sanctuary where I can process complex ideas and emotions.",
+        "rating": 5,
+        "highlight": "Like having a personal sanctuary",
+        "mood": "contemplative",
+        "dateJoined": "10 months ago",
+        "entriesWritten": 300
+      },
+      {
+        "id": 6,
+        "name": "Jake Thompson",
+        "role": "Musician & Producer",
+        "location": "Nashville, TN",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
+        "content": "This app captures the rhythm of my creative process perfectly. The mood tracking helps me understand when I'm most inspired, and the secure encryption means I can be completely honest about my artistic struggles.",
+        "rating": 5,
+        "highlight": "Captures my creative rhythm perfectly",
+        "mood": "inspired",
+        "dateJoined": "7 months ago",
+        "entriesWritten": 210
+      },
+      {
+        "id": 7,
+        "name": "Dr. Priya Sharma",
+        "role": "Clinical Psychologist",
+        "location": "Mumbai, India",
+        "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+        "content": "I recommend this to many of my clients. The combination of beautiful design and robust privacy features creates a safe space for deep self-reflection. The analytics provide valuable insights without being overwhelming.",
+        "rating": 5,
+        "highlight": "Creates a safe space for deep reflection",
+        "mood": "professional",
+        "dateJoined": "1.5 years ago",
+        "entriesWritten": 450
+      },
+      {
+        "id": 8,
+        "name": "Luna Martinez",
+        "role": "Digital Artist",
+        "location": "Mexico City, Mexico",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face",
+        "content": "The visual design speaks to my artistic soul. Every interaction feels intentional and beautiful. It's helped me work through creative blocks and document my artistic evolution in ways I never imagined.",
+        "rating": 5,
+        "highlight": "Speaks to my artistic soul",
+        "mood": "creative",
+        "dateJoined": "5 months ago",
+        "entriesWritten": 150
+      },
+      {
+        "id": 9,
+        "name": "Robert Chen",
+        "role": "Mindfulness Coach",
+        "location": "Vancouver, Canada",
+        "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop&crop=face",
+        "content": "The daily prompts align perfectly with mindfulness practices. My clients love how it gently guides them toward self-awareness without judgment. The mood patterns feature is particularly powerful for tracking progress.",
+        "rating": 5,
+        "highlight": "Aligns perfectly with mindfulness",
+        "mood": "peaceful",
+        "dateJoined": "11 months ago",
+        "entriesWritten": 330
+      },
+      {
+        "id": 10,
+        "name": "Zara Al-Rashid",
+        "role": "Medical Student",
+        "location": "Dubai, UAE",
+        "avatar": "https://images.unsplash.com/photo-1609902724191-973b6d13a4d1?w=100&h=100&fit=crop&crop=face",
+        "content": "During the intensity of medical school, this app became my emotional anchor. The privacy features let me be completely vulnerable, and the mood tracking helped me recognize burnout patterns early.",
+        "rating": 5,
+        "highlight": "Became my emotional anchor",
+        "mood": "resilient",
+        "dateJoined": "9 months ago",
+        "entriesWritten": 270
+      }
+    ],
+    "featuredTestimonials": [1, 3, 7],
+    "testimonialStats": {
+      "totalUsers": "10,000+",
+      "averageRating": 4.9,
+      "totalEntries": "250,000+",
+      "userRetention": "94%",
+      "countriesServed": 25
+    },
+    "testimonialsByMood": {
+      "growth": [3, 5, 10],
+      "creativity": [6, 8],
+      "wellness": [1, 4, 9, 10],
+      "professional": [2, 7]
+    }
+  }
