@@ -6,11 +6,12 @@ export default clerkMiddleware({
   // Define public routes that do not require authentication.
   // Add any routes that should be accessible without a logged-in user.
   publicRoutes: [
-    '/', // Example: your home page
-    '/sign-in(.*)', // Allow access to sign-in page
-    '/sign-up(.*)', // Allow access to sign-up page
-    '/api/gemini', // IMPORTANT: If your /api/gemini route should be publicly accessible, add it here.
-                   // If it requires authentication, DO NOT add it here.
+    '/', // This makes your root/home page accessible without login.
+    '/sign-in(.*)', // Keep this to allow users to reach the sign-in page.
+    '/sign-up(.*)', // Keep this to allow users to reach the sign-up page.
+    '/api/gemini', // If your bot should be usable by unauthenticated users, keep this public.
+    // Add any other pages you want to be publicly accessible, e.g., '/about', '/contact', etc.
+    // For example, if you have an /about page: '/about',
   ],
   // You can also add ignoredRoutes if you have specific paths Clerk should completely ignore.
   // ignoredRoutes: ['/((?!api|trpc|_next/static|_next/image|favicon.ico).*)'],
